@@ -1,0 +1,181 @@
+@import "compass/css3/images";
+@import "compass/css3/box-shadow";
+@import "compass/css3/border-radius";
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+@mixin lin-grad($start, $end) { background-color: $start; @include filter-gradient($start, $end, vertical); @include background-image(linear-gradient(top, $start 0,$end 100%)); }
+
+.btn-custom {
+  background-color: hsl(201, 100%, 11%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00669e", endColorstr="#002438");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#00669e), to(#002438));
+  background-image: -moz-linear-gradient(top, #00669e, #002438);
+  background-image: -ms-linear-gradient(top, #00669e, #002438);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00669e), color-stop(100%, #002438));
+  background-image: -webkit-linear-gradient(top, #00669e, #002438);
+  background-image: -o-linear-gradient(top, #00669e, #002438);
+  background-image: linear-gradient(#00669e, #002438);
+  border-color: #002438 #002438 hsl(201, 100%, 6%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #00284e;
+}
+
+header {
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  #logo > img {
+    margin-bottom: 20px;
+  }
+  #block-system-main-menu .content {
+    @include lin-grad(#003e79, #00284e);
+    @include border-radius(8px, 8px);
+    ul {
+      text-align: center;
+      margin: 0;
+    }
+    li {
+      list-style: none;
+      margin: 0;
+      border-bottom: 2px solid #002548;
+      padding: 0.5em 0.5em;
+      a {
+        color: white;
+        font-weight: bold;
+        text-transform: lowercase;
+        font-size: 1.5em;
+        line-height: 1.1em;
+        @media (max-width: 979px) {
+          font-size: 1.2em;
+        }
+      }
+      &.last {
+        border: 0;
+        padding-bottom: 0.7em;
+      }
+      &:hover,
+      &.active-trail {
+        background: url(../images/indicator.png) center bottom no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+}
+
+#main, #sidebar-first {
+  padding-top: 20px;
+  @media (min-width: 768px) {
+    background: url(../images/navshadow.png) bottom left no-repeat, url(../images/navshadow-stretch.png) top left repeat-y;
+    padding-left: 40px;
+  }
+  @media (max-width: 767px) {
+    .field-name-field-image {
+      margin: 0 -20px;
+    }
+  }
+  #page-title {
+    b { color: #1ab7ea; }
+    @media (min-width: 768px) and (max-width: 979px) {
+      font-size: 2.6em;
+    }
+  }
+}
+
+#sidebar-first {
+  @media (min-width: 768px) and (max-width: 1199px) {
+    padding-left: 20px;
+  }
+  @media (min-width: 768px) and (max-width: 979px) {
+    a {
+      font-size: 0.85em;
+    }
+  }
+}
+
+.view-homepage-slider {
+  .views-field-body {
+    font-size: 0.9em;
+  }
+  .btn {
+    margin: 1em 0;
+  }
+  &.view-display-id-page {
+    @media (min-width: 481px) {
+      padding-bottom: 50px;
+      background: url(../images/homeshadow.png) center 95% no-repeat;
+    }
+  }
+}
+
+.node-webform {
+  .form-text {
+    width: 50%
+  }
+  @media (min-width: 768px) and (max-width: 979px) {
+    .form-horizontal .control-label {
+      width: 100px;
+    }
+  }
+  .form-actions {
+    background: none;
+    border: none;
+    text-align: right;
+    padding-top: 0;
+  }
+  label {
+    font-weight: bold;
+    color: #00284e;
+  }
+}
+.contact-page-left {
+  .facebook,
+  .flickr,
+  .telephone,
+  .email {
+    background: url(../images/facebook.png) top left no-repeat;
+    background-size: contain !important;
+    padding: 0.3em 0;
+    padding-left: 2em;
+    @media (min-width: 768px) and (max-width: 979px) {
+      padding-left: 0;
+      background: none !important;
+    }
+  }
+  .flickr {
+    background: url(../images/flickr.png) top left no-repeat;
+  }
+  .telephone {
+    background: url(../images/phone.png) top left no-repeat;
+  }
+  .email {
+    background: url(../images/mail.png) top left no-repeat;
+  }
+  a {
+    color: black;
+    b {
+      color: #1ab7ea;
+      font-weight: normal;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.region-footer {
+  .span10 {
+    border-top: 1px solid #1ab7ea;
+    margin-top: 50px;
+    padding-top: 10px;
+    font-size: 0.8em;
+    .copyright {
+      float: right;
+    }
+  }
+}

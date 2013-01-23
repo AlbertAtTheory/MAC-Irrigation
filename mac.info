@@ -1,0 +1,22 @@
+name = Mac Irrigation
+description = Theme for Mac Irrigation website.
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+base theme = omega
+
+stylesheets[screen][] = bootstrap/css/bootstrap.min.css
+stylesheets[screen][] = bootstrap/css/bootstrap-responsive.min.css
+stylesheets[screen][] = css/screen.css
+
+scripts[] = bootstrap/js/bootstrap.min.js
+
+features[] = logo
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
