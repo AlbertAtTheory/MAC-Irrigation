@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #00284e;
 }
 
-header {
+#header {
   text-align: center;
   position: relative;
   padding-top: 20px;
@@ -82,7 +82,7 @@ header {
   #page-title {
     b { color: #1ab7ea; }
     @media (min-width: 768px) and (max-width: 979px) {
-      font-size: 2.6em;
+      font-size: 2.5em;
     }
   }
 }
@@ -109,6 +109,24 @@ header {
     @media (min-width: 481px) {
       padding-bottom: 50px;
       background: url(../images/homeshadow.png) center 95% no-repeat;
+    }
+  }
+}
+
+.services-menu {
+  .accordion-heading .accordion-toggle {
+    padding: 0;
+    text-align: center;
+    b {
+      color: #1ab7ea;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .accordion-inner {
+    a {
+      display: block;
     }
   }
 }
@@ -179,3 +197,5 @@ header {
     }
   }
 }
+
+#fbcomments, .fb_iframe_widget, .fb_iframe_widget[style], .fb_iframe_widget iframe[style], #fbcomments iframe[style] {width: 100% !important;}
