@@ -162,30 +162,40 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-/* line 135, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
+.section-blog .blog_usernames_blog,
+.section-blog .disqus_comments_num {
+  display: none;
+}
+/* line 137, ../sass/screen.scss */
+.section-blog .links li {
+  float: right;
+}
+
+/* line 141, ../sass/screen.scss */
 .node-webform .form-text {
   width: 50%;
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 139, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   .node-webform .form-horizontal .control-label {
     width: 100px;
   }
 }
-/* line 143, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 .node-webform .form-actions {
   background: none;
   border: none;
   text-align: right;
   padding-top: 0;
 }
-/* line 149, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .node-webform label {
   font-weight: bold;
   color: #00284e;
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .contact-page-left .facebook,
 .contact-page-left .flickr,
 .contact-page-left .telephone,
@@ -196,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 2em;
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 158, ../sass/screen.scss */
+  /* line 164, ../sass/screen.scss */
   .contact-page-left .facebook,
   .contact-page-left .flickr,
   .contact-page-left .telephone,
@@ -205,45 +215,45 @@ h1, h2, h3, h4, h5, h6 {
     background: none !important;
   }
 }
-/* line 168, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .contact-page-left .flickr {
   background: url(../images/flickr.png) top left no-repeat;
 }
-/* line 171, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .contact-page-left .telephone {
   background: url(../images/phone.png) top left no-repeat;
 }
-/* line 174, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .contact-page-left .email {
   background: url(../images/mail.png) top left no-repeat;
 }
-/* line 177, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .contact-page-left a {
   color: black;
 }
-/* line 179, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 .contact-page-left a b {
   color: #1ab7ea;
   font-weight: normal;
 }
-/* line 183, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .contact-page-left a:hover {
   text-decoration: none;
 }
 
-/* line 190, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .region-footer .span10 {
   border-top: 1px solid #1ab7ea;
   margin-top: 50px;
   padding-top: 10px;
   font-size: 0.8em;
 }
-/* line 195, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 .region-footer .span10 .copyright {
   float: right;
 }
 
-/* line 201, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 #fbcomments, .fb_iframe_widget, .fb_iframe_widget[style], .fb_iframe_widget iframe[style], #fbcomments iframe[style] {
   width: 100% !important;
 }

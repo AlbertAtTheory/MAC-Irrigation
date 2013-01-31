@@ -131,6 +131,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.section-blog {
+  .blog_usernames_blog,
+  .disqus_comments_num { display: none; }
+  .links li { float: right; }
+}
+
 .node-webform {
   .form-text {
     width: 50%
