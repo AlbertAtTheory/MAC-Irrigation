@@ -10,8 +10,9 @@ stylesheets[screen][] = bootstrap/css/bootstrap.min.css
 stylesheets[screen][] = bootstrap/css/bootstrap-responsive.min.css
 stylesheets[screen][] = css/screen.css
 
-scripts[] = js/holder.js
 scripts[] = bootstrap/js/bootstrap.min.js
+scripts[] = js/holder.js
+scripts[] = js/mac.js
 
 features[] = logo
 features[] = slogan

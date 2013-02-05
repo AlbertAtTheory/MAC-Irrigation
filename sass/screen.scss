@@ -132,6 +132,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-blog {
+  .field-name-field-image {
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
   .blog_usernames_blog,
   .disqus_comments_num { display: none; }
   .links li { float: right; }
