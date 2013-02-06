@@ -12,7 +12,7 @@
   background-image: -o-linear-gradient(top, #00669e, #002438);
   background-image: linear-gradient(#00669e, #002438);
   border-color: #002438 #002438 #00141f;
-  color: #fff !important;
+  color: white !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
   -webkit-font-smoothing: antialiased;
   font-weight: bold;
@@ -42,12 +42,9 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -webkit-linear-gradient(top, #003e79 0%, #00284e 100%);
   background-image: -moz-linear-gradient(top, #003e79 0%, #00284e 100%);
   background-image: -o-linear-gradient(top, #003e79 0%, #00284e 100%);
-  background-image: -ms-linear-gradient(top, #003e79 0%, #00284e 100%);
   background-image: linear-gradient(top, #003e79 0%, #00284e 100%);
   -webkit-border-radius: 8px 8px;
   -moz-border-radius: 8px / 8px;
-  -ms-border-radius: 8px / 8px;
-  -o-border-radius: 8px / 8px;
   border-radius: 8px / 8px;
 }
 /* line 39, ../sass/screen.scss */

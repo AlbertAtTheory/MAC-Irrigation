@@ -8,6 +8,7 @@ base theme = omega
 
 stylesheets[screen][] = bootstrap/css/bootstrap.min.css
 stylesheets[screen][] = bootstrap/css/bootstrap-responsive.min.css
+stylesheets[screen][] = css/zocial/zocial.css
 stylesheets[screen][] = css/screen.css
 
 scripts[] = bootstrap/js/bootstrap.min.js
