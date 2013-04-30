@@ -12,7 +12,7 @@
   background-image: -o-linear-gradient(top, #00669e, #002438);
   background-image: linear-gradient(#00669e, #002438);
   border-color: #002438 #002438 #00141f;
-  color: white !important;
+  color: #fff !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
   -webkit-font-smoothing: antialiased;
   font-weight: bold;
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 /* line 36, ../sass/screen.scss */
-#header #block-system-main-menu .content {
+#header #block-system-main-menu {
   background-color: #003e79;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF003E79', endColorstr='#FF00284E');
@@ -42,25 +42,28 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -webkit-linear-gradient(top, #003e79 0%, #00284e 100%);
   background-image: -moz-linear-gradient(top, #003e79 0%, #00284e 100%);
   background-image: -o-linear-gradient(top, #003e79 0%, #00284e 100%);
+  background-image: -ms-linear-gradient(top, #003e79 0%, #00284e 100%);
   background-image: linear-gradient(top, #003e79 0%, #00284e 100%);
   -webkit-border-radius: 8px 8px;
   -moz-border-radius: 8px / 8px;
+  -ms-border-radius: 8px / 8px;
+  -o-border-radius: 8px / 8px;
   border-radius: 8px / 8px;
 }
 /* line 39, ../sass/screen.scss */
-#header #block-system-main-menu .content ul {
+#header #block-system-main-menu ul {
   text-align: center;
   margin: 0;
 }
 /* line 43, ../sass/screen.scss */
-#header #block-system-main-menu .content li {
+#header #block-system-main-menu li {
   list-style: none;
   margin: 0;
   border-bottom: 2px solid #002548;
   padding: 0.5em 0.5em;
 }
 /* line 48, ../sass/screen.scss */
-#header #block-system-main-menu .content li a {
+#header #block-system-main-menu li a {
   color: white;
   font-weight: bold;
   text-transform: lowercase;
@@ -69,17 +72,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 979px) {
   /* line 48, ../sass/screen.scss */
-  #header #block-system-main-menu .content li a {
+  #header #block-system-main-menu li a {
     font-size: 1.2em;
   }
 }
 /* line 58, ../sass/screen.scss */
-#header #block-system-main-menu .content li.last {
+#header #block-system-main-menu li.last {
   border: 0;
   padding-bottom: 0.7em;
 }
 /* line 63, ../sass/screen.scss */
-#header #block-system-main-menu .content li:hover, #header #block-system-main-menu .content li.active-trail {
+#header #block-system-main-menu li:hover, #header #block-system-main-menu li.active-trail {
   background: url(../images/indicator.png) center bottom no-repeat;
   background-size: contain;
 }

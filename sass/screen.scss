@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   #logo > img {
     margin-bottom: 20px;
   }
-  #block-system-main-menu .content {
+  #block-system-main-menu {
     @include lin-grad(#003e79, #00284e);
     @include border-radius(8px, 8px);
     ul {
